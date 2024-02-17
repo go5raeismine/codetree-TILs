@@ -5,14 +5,12 @@ int main() {
     int a = 5;
     int b = 6;
     int c = 7;
-    int temp1;
-    int temp2;
+    int temp;
 
-    temp1=b;
-    temp2=c;
-    b=a;
-    c=temp1;
-    a=temp2;
+    temp=a;
+    a=c;
+    c=b;
+    b=temp;
 
     cout<<a<<endl;
     cout<<b<<endl;
